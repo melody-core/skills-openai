@@ -1,7 +1,7 @@
 {
   "name": "@melody-core/skills-openai",
   "version": "0.1.0",
-  "description": "Node.js 版 OpenSkills - Agent Skill 渐进式披露架构",
+  "description": "Node.js 版 OpenSkills - Agent Skill 渐进式披露架构, 基于 openai-node 扩展实现skills management",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,8 +9,19 @@
     "prepublishOnly": "npm run build"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
   ],
+  "homepage": "https://github.com/melody-core/skills-openai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melody-core/skills-openai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melody-core/skills-openai/issues"
+  },
   "keywords": ["agent", "skill", "llm", "openai", "openskills"],
   "license": "Apache-2.0",
   "engines": {
