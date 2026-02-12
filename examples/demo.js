@@ -24,7 +24,7 @@ async function main() {
       // 'Authorization': process.env.AUTHORIZATION_TOKEN
     },
     skillPaths: [skillDir],
-    model: process.env.OPENAI_MODEL || 'mihoyo-deepseek-v3.1-chat',
+    model: process.env.OPENAI_MODEL || 'gpt-4',
     autoSelectSkill: true,
     autoLoadReferences: true,
     autoExecuteScripts: false,
